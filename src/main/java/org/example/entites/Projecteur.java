@@ -1,7 +1,16 @@
 package org.example.entites;
 
 public class Projecteur {
+
     LecteurDvd lecteurDvd;
+
+    public Projecteur() {
+    }
+
+    public Projecteur(LecteurDvd lecteurDvd) {
+        this.lecteurDvd = lecteurDvd;
+    }
+
     public void marche() {
         System.out.println("Le projecteur est en marche");
     }

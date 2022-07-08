@@ -3,6 +3,15 @@ package org.example.entites;
 public class LecteurDvd {
     Amplificateurs amplificateurs;
 
+    public LecteurDvd() {
+    }
+
+    public LecteurDvd(Amplificateurs amplificateurs, Boolean audioSurround, Boolean audioStereo) {
+        this.amplificateurs = amplificateurs;
+        this.audioSurround = audioSurround;
+        this.audioStereo = audioStereo;
+    }
+
     private Boolean audioSurround;
     private Boolean audioStereo;
 
@@ -38,8 +47,8 @@ public class LecteurDvd {
         System.out.println("Le Dvd est en pause");
     }
 
-    public void jouer (){
-        System.out.println("Le Dvd est jouer");
+    public void jouer (String film){
+        System.out.println(film);
     }
 
     public void stop () {

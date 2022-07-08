@@ -4,6 +4,13 @@ public class LecteurCd {
 
     Amplificateurs amplificateurs;
 
+    public LecteurCd() {
+    }
+
+    public LecteurCd(Amplificateurs amplificateurs) {
+        this.amplificateurs = amplificateurs;
+    }
+
     public void marche () {
         System.out.println("Le lecteurCd est en marche");
     }

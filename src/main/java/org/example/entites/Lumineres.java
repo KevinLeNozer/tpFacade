@@ -2,6 +2,19 @@ package org.example.entites;
 
 public class Lumineres {
 
+    private int intensite = 20;
+
+    public int getIntensite() {
+        return intensite;
+    }
+
+    public void setIntensite(int intensite) {
+        this.intensite = intensite;
+    }
+
+    public Lumineres() {
+    }
+
     public void marche () {
         System.out.println("Le luminère est en marche");
     }
@@ -10,8 +23,8 @@ public class Lumineres {
         System.out.println("Le luminère est à l'arret");
     }
 
-    public void attenuer () {
-        System.out.println("La luminosité du luminère s'attenue");
+    public void attenuer (int intensite) {
+        this.intensite = intensite;
     }
 
 }

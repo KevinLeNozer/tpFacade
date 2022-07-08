@@ -1,6 +1,8 @@
 package org.example.entites;
 
 public class MachinePopCorn {
+    public MachinePopCorn() {
+    }
 
     public void marche () {
         System.out.println("La machine à popcorn est en marche");
