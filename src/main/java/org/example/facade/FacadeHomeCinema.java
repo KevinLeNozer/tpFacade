@@ -1,16 +1,35 @@
 package org.example.facade;
 
-public interface FacadeHomeCinema {
+import org.example.entites.Ecran;
+import org.example.entites.Lumineres;
+import org.example.entites.MachinePopCorn;
+import org.example.entites.Projecteur;
 
-    public void regarderFilm();
+public class FacadeHomeCinema {
 
-    public void arreterFilm();
+    public void regarderFilm() {
+        MachinePopCorn machinePopCorn;
+        Lumineres lumineres;
+        Ecran ecran;
+    }
 
-    public void ecouterCd();
+    public void arreterFilm() {
 
-    public void arreterCd();
+    }
 
-    public void ecouterRadio();
+    public void ecouterCd() {
 
-    public void arreterRadio();
+    }
+
+    public void arreterCd() {
+
+    }
+
+    public void ecouterRadio() {
+
+    }
+
+    public void arreterRadio() {
+
+    }
 }
