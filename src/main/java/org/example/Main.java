@@ -11,6 +11,5 @@ public class Main {
         facadeHomeCinema.arreterCd();
         facadeHomeCinema.ecouterRadio();
         facadeHomeCinema.arreterRadio();
-
     }
 }

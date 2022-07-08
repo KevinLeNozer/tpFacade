@@ -36,7 +36,7 @@ public class LecteurDvd {
     }
 
     public void arret () {
-        System.out.println("Le lecteurDvd est arreté");
+        System.out.println("Le lecteurDvd est éteint");
     }
 
     public void ejecter () {
@@ -48,7 +48,7 @@ public class LecteurDvd {
     }
 
     public void jouer (String film){
-        System.out.println(film);
+        System.out.println("Le film est => " + film);
     }
 
     public void stop () {

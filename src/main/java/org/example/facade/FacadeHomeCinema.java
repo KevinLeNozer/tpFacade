@@ -25,8 +25,8 @@ public class FacadeHomeCinema {
         amp.setSonSurround();
         amp.setVolume(5);
         dvd.marche();
+        dvd.pause();
         dvd.jouer("Avengers");
-
     }
 
     public void arreterFilm() {
